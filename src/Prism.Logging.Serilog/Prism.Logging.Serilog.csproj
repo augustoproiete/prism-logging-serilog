@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Integrate Serilog with Prism in your WPF, UWP, or Xamarin Forms apps.</Description>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Caio Proiete and Contributors</Authors>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <AssemblyName>Prism.Logging.Serilog</AssemblyName>
+    <AssemblyOriginatorKeyFile>../../assets/prism.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+    <PackageId>Prism.Logging.Serilog</PackageId>
+    <PackageTags>prism;serilog;sinks;logging;wpf;xamarin;mvvm;uwp;uap;xaml</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/caioproiete/prism-logging-serilog/master/assets/prism-nuget.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/caioproiete/prism-logging-serilog</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/caioproiete/prism-logging-serilog</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>true</GenerateAssemblyFileVersionAttribute>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- Don't reference the full NETStandard.Library -->
+    <DisableImplicitFrameworkReferences Condition=" '$(TargetFramework)' != 'netstandard2.0' ">true</DisableImplicitFrameworkReferences>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <TreatSpecificWarningsAsErrors />
+    <RootNamespace>Prism</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Core" Version="7.1.0.431" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  
+</Project>
