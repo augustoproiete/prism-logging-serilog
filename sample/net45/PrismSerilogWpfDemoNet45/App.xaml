@@ -1,8 +1,8 @@
-﻿<prism:PrismApplication x:Class="PrismSerilogWpfDemo.App"
+﻿<prism:PrismApplication x:Class="PrismSerilogWpfDemoNet45.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:prism="http://prismlibrary.com/"
-             xmlns:local="clr-namespace:PrismSerilogWpfDemo">
+             xmlns:local="clr-namespace:PrismSerilogWpfDemoNet45">
     <Application.Resources>
          
     </Application.Resources>

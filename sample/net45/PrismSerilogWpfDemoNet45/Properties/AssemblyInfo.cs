@@ -2,11 +2,11 @@
 using System.Runtime.InteropServices;
 using System.Windows;
 
-[assembly: AssemblyTitle("PrismSerilogWpfDemo")]
+[assembly: AssemblyTitle("PrismSerilogWpfDemoNet45")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("caioproiete.net")]
-[assembly: AssemblyProduct("PrismSerilogWpfDemo")]
+[assembly: AssemblyProduct("PrismSerilogWpfDemoNet45")]
 [assembly: AssemblyCopyright("Copyright © 2019 Caio Proiete and Contributors")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

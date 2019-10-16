@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace PrismSerilogWpfDemo.Views
+namespace PrismSerilogWpfDemoNet45.Views
 {
     public partial class MainWindow : Window
     {

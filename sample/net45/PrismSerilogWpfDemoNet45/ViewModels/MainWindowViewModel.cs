@@ -5,12 +5,12 @@ using Prism.Commands;
 using Prism.Logging;
 using Prism.Mvvm;
 
-namespace PrismSerilogWpfDemo.ViewModels
+namespace PrismSerilogWpfDemoNet45.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
         private readonly ILoggerFacade _logger;
-        private string _title = "Prism Serilog Demo";
+        private string _title = "Prism Serilog WPF Demo (.NET 4.5)";
 
         public MainWindowViewModel(ILoggerFacade logger)
         {

@@ -2,9 +2,9 @@
 using System.Windows;
 using Prism.Ioc;
 using Serilog;
-using PrismSerilogWpfDemo.Views;
+using PrismSerilogWpfDemoNet45.Views;
 
-namespace PrismSerilogWpfDemo
+namespace PrismSerilogWpfDemoNet45
 {
     public partial class App
     {

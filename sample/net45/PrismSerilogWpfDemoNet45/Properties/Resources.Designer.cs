@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PrismSerilogWpfDemo.Properties
+namespace PrismSerilogWpfDemoNet45.Properties
 {
 
 
