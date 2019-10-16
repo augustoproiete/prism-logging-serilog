@@ -23,6 +23,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <!-- Don't reference the full NETStandard.Library -->
     <DisableImplicitFrameworkReferences Condition=" '$(TargetFramework)' != 'netstandard2.0' ">true</DisableImplicitFrameworkReferences>
+    <NoWarn>$(NoWarn);NU5048</NoWarn>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <TreatSpecificWarningsAsErrors />
     <RootNamespace>Prism</RootNamespace>
