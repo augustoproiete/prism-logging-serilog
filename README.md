@@ -4,6 +4,10 @@ Integrate [Serilog](https://serilog.net) with [Prism](https://prismlibrary.githu
 
 This project provides a custom implementation of Prism's `ILoggerFacade`, that forwards messages to a Serilog logger, allowing developers to capture the logging events written in their _ViewModels_ and _Services_, in Serilog.
 
+## Give a Star! :star:
+
+If you like or are using this project please give it a star. Thanks!
+
 ## Getting started
 
 To use the `Prism.Logging.Serilog`, first install the [NuGet package](https://nuget.org/packages/prism.logging.serilog):
