@@ -4,7 +4,7 @@
     <Description>Integrate Serilog with Prism in your WPF, UWP, or Xamarin Forms apps.</Description>
     <VersionPrefix>7.2.0.1422</VersionPrefix>
     <Authors>Caio Proiete and Contributors</Authors>
-    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net45;netstandard2.0;netcoreapp3.0</TargetFrameworks>
     <AssemblyName>Prism.Logging.Serilog</AssemblyName>
     <AssemblyOriginatorKeyFile>../../assets/prism.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
@@ -39,5 +39,5 @@
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
-  
+
 </Project>
