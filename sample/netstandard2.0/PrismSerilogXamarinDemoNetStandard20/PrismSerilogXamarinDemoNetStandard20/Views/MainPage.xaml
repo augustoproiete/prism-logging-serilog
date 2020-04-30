@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="PrismSerilogXamarinDemoNetStandard20.MainPage">
+    <Grid Margin="0,40,0,0">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Label LineBreakMode="WordWrap" FontSize="14" Text="Log messages are written to a TextWriter" HorizontalOptions="Center" />
+            <Label HeightRequest="630" WidthRequest="440" Margin="5,0,0,0" Padding="5" LineBreakMode="WordWrap" Text="{Binding Text, Mode=OneWay}" />
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="End" Orientation="Horizontal">
+            <Button Margin="10,0,0,30" Command="{Binding LogDebugCommand}" Text="Log Debug" />
+            <Button Margin="10,0,0,30" Command="{Binding LogInformationCommand}" Text="Log Information" />
+            <Button Margin="10,0,0,30" Command="{Binding LogWarningCommand}" Text="Log Warning" />
+            <Button Margin="10,0,0,30" Command="{Binding LogExceptionCommand}" Text="Log Exception" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
