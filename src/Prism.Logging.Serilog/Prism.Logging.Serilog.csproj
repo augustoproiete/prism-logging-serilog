@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Integrate Serilog with Prism in your WPF, UWP, or Xamarin Forms apps.</Description>
-    <VersionPrefix>7.2.0.1422</VersionPrefix>
+    <VersionPrefix>7.2.0.1423</VersionPrefix>
     <Authors>C. Augusto Proiete and Contributors</Authors>
     <TargetFrameworks>net45;netstandard2.0;netcoreapp3.0</TargetFrameworks>
     <AssemblyName>Prism.Logging.Serilog</AssemblyName>
