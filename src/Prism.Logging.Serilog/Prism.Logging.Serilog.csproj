@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>Integrate Serilog with Prism in your WPF, UWP, or Xamarin Forms apps.</Description>
     <VersionPrefix>7.2.0.1422</VersionPrefix>
-    <Authors>Caio Proiete and Contributors</Authors>
+    <Authors>C. Augusto Proiete and Contributors</Authors>
     <TargetFrameworks>net45;netstandard2.0;netcoreapp3.0</TargetFrameworks>
     <AssemblyName>Prism.Logging.Serilog</AssemblyName>
     <AssemblyOriginatorKeyFile>../../assets/prism.snk</AssemblyOriginatorKeyFile>
@@ -11,10 +11,10 @@
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <PackageId>Prism.Logging.Serilog</PackageId>
     <PackageTags>prism;serilog;sinks;logging;wpf;xamarin;mvvm;uwp;uap;xaml</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/caioproiete/prism-logging-serilog/master/assets/prism-nuget.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/caioproiete/prism-logging-serilog</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/augustoproiete/prism-logging-serilog/master/assets/prism-nuget.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/augustoproiete/prism-logging-serilog</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/caioproiete/prism-logging-serilog</RepositoryUrl>
+    <RepositoryUrl>https://github.com/augustoproiete/prism-logging-serilog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

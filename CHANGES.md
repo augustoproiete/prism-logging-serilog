@@ -1,1 +1,1 @@
-See: https://github.com/caioproiete/prism-logging-serilog/releases
+See: https://github.com/augustoproiete/prism-logging-serilog/releases
