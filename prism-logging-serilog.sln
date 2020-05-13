@@ -19,15 +19,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net45", "net45", "{C8C51579
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netcoreapp3.0", "netcoreapp3.0", "{845167A8-94BF-43C0-B1AD-878B47FDA827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismSerilogWpfDemoNetCoreApp30", "sample\netcoreapp3.0\PrismSerilogWpfDemoNetCoreApp30\PrismSerilogWpfDemoNetCoreApp30.csproj", "{D16CA8E1-8130-4E9D-8AD2-856F6768DC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismSerilogWpfDemoNetCoreApp30", "sample\netcoreapp3.0\PrismSerilogWpfDemoNetCoreApp30\PrismSerilogWpfDemoNetCoreApp30.csproj", "{D16CA8E1-8130-4E9D-8AD2-856F6768DC0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netstandard2.0", "netstandard2.0", "{327D087D-2A5E-487B-BCFE-C2EE8EAC3FC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismSerilogXamarinDemoNetStandard20", "sample\netstandard2.0\PrismSerilogXamarinDemoNetStandard20\PrismSerilogXamarinDemoNetStandard20\PrismSerilogXamarinDemoNetStandard20.csproj", "{BF0EB14A-E346-486B-B27E-3F9632A5F16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismSerilogXamarinDemoNetStandard20", "sample\netstandard2.0\PrismSerilogXamarinDemoNetStandard20\PrismSerilogXamarinDemoNetStandard20\PrismSerilogXamarinDemoNetStandard20.csproj", "{BF0EB14A-E346-486B-B27E-3F9632A5F16E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismSerilogXamarinDemoNetStandard20.Android", "sample\netstandard2.0\PrismSerilogXamarinDemoNetStandard20\PrismSerilogXamarinDemoNetStandard20.Android\PrismSerilogXamarinDemoNetStandard20.Android.csproj", "{4D03E699-7664-42A4-8A4C-03E69830B120}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismSerilogXamarinDemoNetStandard20.iOS", "sample\netstandard2.0\PrismSerilogXamarinDemoNetStandard20\PrismSerilogXamarinDemoNetStandard20.iOS\PrismSerilogXamarinDemoNetStandard20.iOS.csproj", "{C2327E37-42DC-4154-95DA-47CBC123890F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{E6D8E5BF-215F-4E52-BD7F-1AD11A7553C1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CHANGES.md = CHANGES.md
+		CODEOWNERS = CODEOWNERS
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+		SECURITY.md = SECURITY.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
