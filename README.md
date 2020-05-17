@@ -57,7 +57,7 @@ protected override void RegisterTypes(IContainerRegistry containerRegistry)
 
 ## Example
 
-In the source code you can find a [demo project](sample/PrismSerilogWpfDemo) of a WPF application using Prism and Serilog. The initial setup looks something like this:
+In the source code you can find a [demo project](sample) of a WPF application using Prism and Serilog. The initial setup looks something like this:
 
 ```csharp
 public partial class App
