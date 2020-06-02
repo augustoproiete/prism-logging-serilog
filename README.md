@@ -1,4 +1,4 @@
-# Prism.Logging.Serilog [![NuGet Version](http://img.shields.io/nuget/v/Prism.Logging.Serilog.svg?style=flat)](https://www.nuget.org/packages/Prism.Logging.Serilog/) [![Help](https://img.shields.io/badge/stackoverflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Help](https://img.shields.io/badge/stackoverflow-prism-00a5f1.svg)](http://stackoverflow.com/questions/tagged/prism)
+# Prism.Logging.Serilog [![NuGet Version](http://img.shields.io/nuget/v/Prism.Logging.Serilog.svg?style=flat)](https://www.nuget.org/packages/Prism.Logging.Serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-prism-orange.svg)](http://stackoverflow.com/questions/tagged/prism)
 
 Integrate [Serilog](https://serilog.net) with [Prism](https://prismlibrary.github.io) in your WPF, UWP, or Xamarin Forms apps.
 
