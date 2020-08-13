@@ -1,14 +1,28 @@
-# Prism.Logging.Serilog [![NuGet Version](http://img.shields.io/nuget/v/Prism.Logging.Serilog.svg?style=flat)](https://www.nuget.org/packages/Prism.Logging.Serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-prism-orange.svg)](http://stackoverflow.com/questions/tagged/prism)
+| README.md |
+|:---|
+
+<div align="center">
+
+<img src="assets/prism-nuget.png" alt="Prism.Logging.Serilog" width="100" />
+
+</div>
+
+<h1 align="center">Prism.Logging.Serilog</h1>
+<div align="center">
 
 Integrate [Serilog](https://serilog.net) with [Prism](https://prismlibrary.github.io) in your WPF, UWP, or Xamarin Forms apps.
 
+[![NuGet Version](http://img.shields.io/nuget/v/Prism.Logging.Serilog.svg?style=flat)](https://www.nuget.org/packages/Prism.Logging.Serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-serilog-orange.svg)](http://stackoverflow.com/questions/tagged/serilog) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-prism-orange.svg)](http://stackoverflow.com/questions/tagged/prism)
+
 This project provides a custom implementation of Prism's `ILoggerFacade`, that forwards messages to a Serilog logger, allowing developers to capture the logging events written in their _ViewModels_ and _Services_, in Serilog.
+
+</div>
 
 ## Give a Star! :star:
 
 If you like or are using this project please give it a star. Thanks!
 
-## Getting started
+## Getting started :rocket:
 
 To use the `Prism.Logging.Serilog`, first install the [NuGet package](https://nuget.org/packages/prism.logging.serilog):
 
