@@ -117,4 +117,4 @@ Click on the [Releases](https://github.com/augustoproiete/prism-logging-serilog/
 
 ---
 
-_Copyright &copy; 2019-2020 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html)._
+_Copyright &copy; 2019-2020 C. Augusto Proiete & Contributors - Provided under the [Apache License, Version 2.0](LICENSE)._
