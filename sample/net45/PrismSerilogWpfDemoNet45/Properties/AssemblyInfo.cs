@@ -7,7 +7,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("augustoproiete.net")]
 [assembly: AssemblyProduct("PrismSerilogWpfDemoNet45")]
-[assembly: AssemblyCopyright("Copyright 2019-2021 C. Augusto Proiete & Contributors")]
+[assembly: AssemblyCopyright("Copyright 2019-2023 C. Augusto Proiete & Contributors")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
